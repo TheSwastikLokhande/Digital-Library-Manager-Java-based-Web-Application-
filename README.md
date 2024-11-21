@@ -66,6 +66,26 @@ This project is a **Library Management System** built using Java Servlets. It al
 - Includes multiple checkboxes for selecting filters.
 - Displays the filtered book data upon submission.
 
+### 9. **Screenshots**
+
+![Home Page Screenshot](screenshot/BooksServlet.png)
+
+![Add Book Page Screenshot](screenshot/AddBookServlet.png)
+
+![Add Member Page Screenshot](screenshot/AddMember.png)
+
+![Issue Book Page Screenshot](screenshot/issue_servlet.png)
+
+![Return Book Page Screenshot](screenshot/ReturnBookServlet.png)
+
+![Book display by applying filter Page Screenshot](screenshot/ReturnBookServlet.png)
+
+![Member Details With Iteractive options Page Screenshot](screenshot/members_display.png)
+
+
+
+
+
 ---
 
 ## Technologies Used
