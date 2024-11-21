@@ -1,0 +1,163 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body.bg {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240911/pngtree-open-book-on-a-table-in-library-with-blue-bookshelves-the-image_16153458.jpg'); /* Adjust the path to the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+body.bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;  /* Inherits the background image from the body */
+    filter: brightness(0.5); /* Adjust the brightness here */
+    z-index: -1; /* Ensures the pseudo-element stays behind the content */
+}
+h1{
+	 color:#fff;
+}
+table {  
+	width:fit-content;
+	height:230px;
+	 display: block;
+            overflow-x: scroll;
+            overflow-Y: scroll;
+            white-space: nowrap;
+	
+  font-family:sans-serif;
+  th, td {
+    padding:.25em .5em;
+    text-align:left;
+    &:nth-child(2) {
+      text-align:right;
+    }
+  }
+  td {
+    background-color:#eee;    
+  }
+  th {
+    background-color:#009;
+    color:#fff;
+  }
+}
+
+.zigzag {
+  border-collapse:separate;
+  border-spacing:.25em 1em;
+  tbody tr:nth-child(odd) {
+    transform:rotate(2deg);
+  }
+  thead tr,
+  tbody tr:nth-child(even) {
+    transform:rotate(-2deg);
+  }
+  
+  .box{
+  display: flex;
+  
+  }
+}
+
+
+span.clickable {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+span.clickable:hover {
+  color: darkblue;
+}
+
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.color-white{
+	color:white;
+	font-weight:600;
+	font-size:24px;
+	margin-left:20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+}
+
+.nav-button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #007BFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #007BFF;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.nav-button:active {
+  transform: scale(1);
+}
+
+.outer-container{
+	width:30rem;
+	background-color: rgb(48 130 202 / 43%);
+	padding:20px;
+	border-radius:20px;
+}
+
+.input-field{
+	 width: 20vw;
+   
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 3px;
+    height: 30px;
+}
+
+
+
+input::placeholder {
+            text-align: center; /* Centers the placeholder text */
+        }
+
+
+
+.member-details{
+	display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+

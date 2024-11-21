@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+    
+}
+body{
+    background-color: #4070F4;
+
+}
+.container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4070F4;
+}
+
+
+.login {
+    background-color: white;
+    width: 20vw;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 50vh;
+}
+.login h1{
+	font-weight:600;
+}
+
+.signup {
+    background-color: white;
+    width: 20vw;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60vh;
+}
+.signup h1{
+	font-weight:600;
+}
+
+.gosign a{
+    text-decoration: none;
+    color: #4070F4;
+}
+.login,
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.email {
+    width: 15vw;
+    height: 24px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    border-radius: 3px;
+    height: 30px;
+}
+
+.forgotp {
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+
+.login-btn {
+    background-color: #0171D3;
+    color: white;
+    width: 15vw;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.login-btn:hover {
+    background-color: #045499;   /* Darker green */
+}
+.login-btn a {
+    color: white;
+    font-family: "Calibri";
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.login-with-fb {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0171D3;
+    width: 15vw;
+    height: 34px;
+    border-radius: 5px;
+}
+.login-with-fb:hover {
+    background-color: #045499;   /* Darker green */
+}
+
+.login-with-fb a {
+    text-decoration: none;
+    color: white;
+}
+.login-with-fb img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr{
+    width: 140px;
+    opacity: 0.4;
+}
+.bn{
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+}
+.bn:hover{
+    background-color: #fff;
+    color: white;
+}
+.bn a{
+    color: black;
+    
+}
+
+
