@@ -1,7 +1,8 @@
-# Library Management System
+# Digital Library Manager (Java-based Web Application)
 
 ## Overview
-This project is a **Library Management System** built using Java Servlets. It allows managing books, members, and book issuance in a library. The system features login and registration for users, along with the ability to add, issue, and return books. It also includes image upload functionality for books and members.
+This project is a **Digital Library Manager (Java-based Web Application)
+** built using Java Servlets. It allows managing books, members, and book issuance in a library. The system features login and registration for users, along with the ability to add, issue, and return books. It also includes image upload functionality for books and members.
 
 ---
 
